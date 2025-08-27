@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>File Metadata Microservice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        max-width: 680px;
+        margin: 4rem auto;
+        padding: 0 1rem;
+      }
+      h1 {
+        font-size: 1.6rem;
+      }
+      form {
+        border: 1px solid #ddd;
+        padding: 1rem;
+        border-radius: 8px;
+      }
+      input[type="file"] {
+        display: block;
+        margin: 0.75rem 0;
+      }
+      button {
+        padding: 0.5rem 0.9rem;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        background: #f7f7f7;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>File Metadata Microservice</h1>
+    <p>
+      Upload a file to get its <strong>name</strong>, <strong>type</strong>, and
+      <strong>size</strong> in bytes.
+    </p>
+
+    <!-- name MUST be "upfile" to satisfy FCC test -->
+    <form method="POST" action="/api/fileanalyse" enctype="multipart/form-data">
+      <label for="file">Choose a file:</label>
+      <input id="file" type="file" name="upfile" required />
+      <button type="submit">Upload</button>
+    </form>
+  </body>
+</html>
