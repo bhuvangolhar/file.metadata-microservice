@@ -1,4 +1,4 @@
-# File Metadata Analysis Service
+ File Metadata Analysis Service
 
 ## Overview
 
