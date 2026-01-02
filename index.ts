@@ -1,5 +1,5 @@
 import express, { Request, Response } from "express";
-import cors from "cors";
+import co rs from "cors";
 import multer from "multer";
 
 const app = express();
