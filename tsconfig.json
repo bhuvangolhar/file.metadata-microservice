@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "module": "commonjs",
+    "m
+    odule": "commonjs",
     "rootDir": "./",
     "outDir": "./dist",
     "strict": true,
