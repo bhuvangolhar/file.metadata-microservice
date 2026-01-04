@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 
 // Configure multer (memory storage, no files saved on disk)
-const upload = multer({ storage: multer.memoryStorage() });
+const upload = mult er({ storage: multer.memoryStorage() });
 
 // Serve a simple HTML form at "/"
 app.get("/", (req: Request, res: Response) => {
