@@ -4,7 +4,7 @@
 
 view
 
-This project is a full-stack web application that provides file metadata analysis capabilities. Users can upload files through a modern React frontend and receive detailed metadata information including file size, type, name and extension. The application features a clean, intuitive drag-and-drop interface for file uploads and displays comprehensive file analysis results.
+#This project is a full-stack web application that provides file metadata analysis capabilities. Users can upload files through a modern React frontend and receive detailed metadata information including file size, type, name and extension. The application features a clean, intuitive drag-and-drop interface for file uploads and displays comprehensive file analysis results.
 
 ## User Preferences
 
