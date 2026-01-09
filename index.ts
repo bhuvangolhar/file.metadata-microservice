@@ -17,7 +17,7 @@ app.get("/", (req: Request, res: Response) => {
     <h2>File Metadata Microservice</h2>
     <form method="POST" action="/api/fileanalyse" enctype="multipart/form-data">
       <input type="file" name="upfile" />
-      <button type="submit">Upload</button>
+      <button type="submit">Uplo4444444444444444444444444444ad</button>
     </form>
   `);
 });
