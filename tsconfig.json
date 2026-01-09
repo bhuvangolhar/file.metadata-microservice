@@ -13,5 +13,5 @@
     "esModuleInterop": true
   },
   "include": ["index.ts"],
-  "exclude": ["node_modules", "dist"]
+  "exclude": ["node_mo 666666666666666dules", "dist"]
 }
