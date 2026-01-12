@@ -1,14 +1,18 @@
- File Metadata Analysis Service
+# File Metadata Analysis Service
 
-## Over
+## Overview
 
-view
+This project is a full-stack web application that provides file metadata analysis capabilities. Users can upload files through a modern React frontend and receive detailed metadata information including file size, type, name, and extension.
 
-#This project is a full-stack web application that provides file metadata analysis capabilities. Users can upload files through a modern React frontend and receive detailed metadata information including file size, type, name and extension. The application features a clean, intuitive drag-and-drop interface for file uploads and displays comprehensive file analysis results.
+The application features a clean, intuitive drag-and-drop interface for file uploads and displays comprehensive file analysis results.
+
+---
 
 ## User Preferences
 
-Preferred communication style: Simple, everyday language.
+- **Preferred communication style**: Simple, everyday language.
+
+---
 
 ## System Architecture
 
@@ -30,12 +34,12 @@ Preferred communication style: Simple, everyday language.
 
 ### Data Storage Solutions
 - **Database ORM**: Drizzle ORM configured for PostgreSQL with migration support
-- **File Storage**: In-memory processing only - files are analyzed but not persisted
+- **File Storage**: In-memory processing only — files are analyzed but not persisted
 - **Session Management**: PostgreSQL session store with connect-pg-simple for potential future authentication needs
 
 ### Validation and Type Safety
 - **Schema Validation**: Zod for runtime type validation and schema definitions
-- **Shared Types**: Common schema definitions between frontend and backend in shared directory
+- **Shared Types**: Common schema definitions between frontend and backend in a shared directory
 - **API Contracts**: Type-safe API responses with structured error handling
 
 ### Development and Build Process
@@ -43,6 +47,8 @@ Preferred communication style: Simple, everyday language.
 - **Production Build**: Vite builds frontend assets, esbuild bundles backend for Node.js deployment
 - **Code Quality**: TypeScript strict mode with comprehensive type checking
 - **Asset Management**: Vite handles static assets with optimized bundling
+
+---
 
 ## External Dependencies
 

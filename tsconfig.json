@@ -1,13 +1,12 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "m
-    odule": "commonjs",
-    "rooter": "./",
+    "module": "commonjs",
+    "rootDir": "./",
     "outDir": "./dist",
     "strict": true,
     "esModuleInterop": true
   },
   "include": ["index.ts"],
-  "exclude": ["node_mo 666666666666666dules", "dist"]
+  "exclude": ["node_modules", "dist"]
 }

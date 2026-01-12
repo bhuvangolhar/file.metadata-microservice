@@ -1,6 +1,6 @@
-node_module
+node_modules
 dist
 .DS_Store
-serve r/public
-vite.c onfig.ts.*
+server/public
+vite.config.ts.*
 *.tar.gz
