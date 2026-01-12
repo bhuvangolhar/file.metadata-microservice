@@ -1,7 +1,7 @@
 {
   " name": " file-metadata-microservice",
-  "ver sion": "1.0.0",
-  "main": "index.js",
+  "version": "1.0.0",
+  "mained": "index.js",
   "license": "MIT",
   "type": "commonjs",
   "scripts": {
