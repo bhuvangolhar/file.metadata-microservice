@@ -5,7 +5,7 @@ import multer from "multer";
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// Middleware
+// Middlewares
 app.use(cors());
 
 # Configure multer (memory storage, no files saved on disk)
