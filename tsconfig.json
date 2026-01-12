@@ -3,11 +3,7 @@
     "target": "es6",
     "m
     odule": "commonjs",
-    "rootDi
-    
-    
-    
-    r": "./",
+    "rooter": "./",
     "outDir": "./dist",
     "strict": true,
     "esModuleInterop": true
