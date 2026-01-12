@@ -1,4 +1,4 @@
-/node_modules
+node_module
 dist
 .DS_Store
 serve r/public
